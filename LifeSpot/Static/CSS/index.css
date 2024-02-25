@@ -64,6 +64,11 @@ header, footer, aside, body, .navbar, .video-container {
     font-family: "Helvetica 65 Medium", sans-serif;
 }
 
+/* Задание 27.5.3 - замените фон всех элементов нашей страницы кроме сайд-бара с белого на любой другой*/
+header, footer, body, .video-container {
+    background-color: linen;
+}
+
 .video-title { /* А это Класс */
     font-style: italic;
     text-align: center;
