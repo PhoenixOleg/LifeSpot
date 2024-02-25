@@ -1,8 +1,8 @@
-﻿/* Свойства стиля элемента. Подробнее о них в модуле по CSS */
-/*Задание 26.4.4 Общее свойство iframe-контейнеров - чтобы в строку*/
+﻿/*Задание 26.4.4 Общее свойство iframe-контейнеров - чтобы в строку*/
 .video-container { /* Это класс*/
     display: inline-block;
     padding-left: 1%;
+    padding-top: 1%;
 }
 
 .navbar { /* Это класс*/
@@ -12,12 +12,15 @@
 
 header { /* А это тег! */
     padding-left: 1%;
+    padding-top: 1.2%;
 }
 
 /* Задание 26.5.5 Сделайте футер */
 footer { /* А это тег! */
     position: absolute;
     bottom: 0;
+    font-size: medium;
+    color: dimgrey;
 }
 
 aside { /* А это тег! */
@@ -29,11 +32,17 @@ aside { /* А это тег! */
     left: 0;
     background-color: #111; /* Черный цвет фона (задан в виде кода) */
     overflow-x: hidden; /* Отключаем горизонтальную прокрутку */
-    padding-top: 20px;
+    padding-top: 2%;
+    font-size: medium; /*тут поменял с large*/
 }
 
 body { /* А это тег! */
     padding-left: 11%;
+}
+
+/* Задание 27.2.4 Комбинированный селектор - применяется ко всем элементам - изменение текста*/
+header, footer, aside, body, .navbar, .video-container {
+    font-family: "Helvetica 65 Medium", sans-serif;
 }
 
 .video-title { /* А это Класс */
